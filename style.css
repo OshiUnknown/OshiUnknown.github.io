@@ -40,6 +40,40 @@ body {
   display: block;
 }
 
+.special-image {
+  border-radius: 20px;
+  animation: rainbowBorder 5s linear infinite;
+}
+
+@keyframes rainbowBorder {
+  0% {
+    border: 2px solid red;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+  }
+  14% {
+    border: 2px solid orange;
+  }
+  28% {
+    border: 2px solid yellow;
+  }
+  42% {
+    border: 2px solid green;
+  }
+  57% {
+    border: 2px solid blue;
+  }
+  71% {
+    border: 2px solid indigo;
+  }
+  85% {
+    border: 2px solid violet;
+  }
+  100% {
+    border: 2px solid red;
+  }
+}
+
+
 /* Mobile-friendly adjustments */
 @media (max-width: 600px) {
   .gallery {
