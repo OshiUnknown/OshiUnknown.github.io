@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wheel">
+        <button onclick="togglePopup('card1')">
+            <img src="images/ours/1.JPG" alt="1" id="mini-card1">
+        </button>
+        <button onclick="togglePopup('card2')">
+            <img src="images/ours/2.JPG" alt="2" id="mini-card2">
+        </button>
+        <button onclick="togglePopup('card3')">
+            <img src="images/ours/3.JPG" alt="3" id="mini-card3">
+        </button>
+        <button onclick="togglePopup('card4')">
+            <img src="images/ours/4.JPG" alt="4" id="mini-card4">
+        </button>
+        <button onclick="togglePopup('card5')">
+            <img src="images/ours/5.JPG" alt="5" id="mini-card5">
+        </button>
+        <button onclick="togglePopup('card6')">
+            <img src="images/ours/6.JPG" alt="6" id="mini-card6">
+        </button>
+        <button onclick="togglePopup('card7')">
+            <img src="images/ours/7.JPG" alt="7" id="mini-card7">
+        </button>
+        <button onclick="togglePopup('card8')">
+            <img src="images/ours/8.JPG" alt="8" id="mini-card8">
+        </button>
+        <button onclick="togglePopup('card9')">
+            <img src="images/ours/9.JPG" alt="9" id="mini-card9">
+        </button>
+        <button onclick="togglePopup('card10')">
+            <img src="images/ours/10.JPG" alt="10" id="mini-card10">
+        </button>
+    </div>
+    <button class="cycling" onclick="showPreviousMiniCard()">
+        <img class="cycling" id="cycLeft" src="images/icons/left-arrow.png" alt="Previous">
+    </button>
+    <button class="cycling" onclick="showNextMiniCard()">
+        <img class="cycling" id="cycRight" src="images/icons/right-arrow.png" alt="Next">
+    </button>
+
+    <div id="card1" class="popup">
+        <div class="zoomed-card" style="background-image: url('images/ours/1.JPG');" onclick="togglePopup('card1')"></div>
+    </div>
+    <div id="card2" class="popup">
+        <div class="zoomed-card" style="background-image: url('images/ours/2.JPG');" onclick="togglePopup('card2')"></div>
+    </div>
+    <div id="card3" class="popup">
+        <div class="zoomed-card" style="background-image: url('images/ours/3.JPG');" onclick="togglePopup('card3')"></div>
+    </div>
+    <div id="card4" class="popup">
+        <div class="zoomed-card" style="background-image: url('images/ours/4.JPG');" onclick="togglePopup('card4')"></div>
+    </div>
+    <div id="card5" class="popup">
+        <div class="zoomed-card" style="background-image: url('images/ours/5.JPG');" onclick="togglePopup('card5')"></div>
+    </div>
+    <div id="card6" class="popup">
+        <div class="zoomed-card" style="background-image: url('images/ours/6.JPG');" onclick="togglePopup('card6')"></div>
+    </div>
+    <div id="card7" class="popup">
+        <div class="zoomed-card" style="background-image: url('images/ours/7.JPG');" onclick="togglePopup('card7')"></div>
+    </div>
+    <div id="card8" class="popup">
+        <div class="zoomed-card" style="background-image: url('images/ours/8.JPG');" onclick="togglePopup('card8')"></div>
+    </div>
+    <div id="card9" class="popup">
+        <div class="zoomed-card" style="background-image: url('images/ours/9.JPG');" onclick="togglePopup('card9')"></div>
+    </div>
+    <div id="card10" class="popup">
+        <div class="zoomed-card" style="background-image: url('images/ours/10.JPG');" onclick="togglePopup('card10')"></div>
+    </div> 
+        
+    <script src="index.js"></script>
+</body>
+</html>
