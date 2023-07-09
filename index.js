@@ -25,6 +25,9 @@ document.addEventListener("DOMContentLoaded", function() {
     images.forEach(function(image, index) {
         const img = document.createElement("img");
         img.src = image;
+        if (index === 10) {
+            img.classList.add("special-image");
+        }
         img.addEventListener("click", function() {
             if (index === 10) {
                 showImage(alternativeImage);
