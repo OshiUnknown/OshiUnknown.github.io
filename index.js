@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Define your image URLs here
   const images = [];
-  const totalImages = 28; // The total number of images
+  const totalImages = 30; // The total number of images
   
   for (let i = 1; i <= totalImages; i++) {
     const imageUrl = `images/ours/${i}.jpg`;
